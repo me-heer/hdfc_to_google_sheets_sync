@@ -1,0 +1,14 @@
+name: Pylint
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10"]
+    steps:
+    - name: Gitleaks
+      uses: gitleaks/gitleaks-action@v2.2.0
+
