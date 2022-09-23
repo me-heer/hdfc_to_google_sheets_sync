@@ -6,6 +6,7 @@ Download transactions from HDFC Netbanking, parse them and update Google Sheets.
 
 ## Disclaimer
 - This repository is solely to be used for your convenience. I am not an affiliate to or with HDFC Bank in any way shape or form. 
+- The script is only intended to be used with valid credentials. It was solely created to automate, and accelerate the process of downloading transactions from HDFC website and it is done so by visiting the website through a headless browser.
 
 
 ## Dependencies
